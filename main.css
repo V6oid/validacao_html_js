@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input, button {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #df004a;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c50042;
+}
+
+#resultMessage {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
