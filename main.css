@@ -1,8 +1,12 @@
 * {
+    font-family: sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+}
+
+form {
+    margin-top: 30px;
 }
 
 .container {
@@ -11,32 +15,28 @@
     width: 100%;
 }
 
-form {
-    margin-top: 30px;
-}
-
 input, button {
+    width: 100%;
     display: block;
+    resize: none;
     margin-bottom: 8px;
     padding: 8px;
-    width: 100%;
-    resize: none;
 }
 
 button {
-    background-color: #df004a;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
     outline: none;
     border: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 18px;
-    font-style: italic;
     cursor: pointer;
+    color: #fff;
+    background-color: #9900ff;
 }
 
 button:hover {
-    background-color: #c50042;
+    background-color: #8a00e6;
 }
 
 #resultMessage {
